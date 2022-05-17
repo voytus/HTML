@@ -20,23 +20,52 @@
             <h4>GET Form</h4>
             <!-- TAking input as text -->
             <!-- QUEARY IS A KEY ANYTHING ALSE WOULD BE A VALUEdoes it work the same within duckduckgo.com? -->
-            <input name="query" type=text/>
+            <!-- <input name="query" type=text/> -->
             <!-- BUTTON TO SUBMIT A FORM -->
-            <button> SEND</button> -->
+            <!-- <button> SEND</button> --> -->
 
-            <form method="post" action="./mailform.html">
+            <form method="post" action="./mailform.php">
                 <h4>POST Form</h4>
                 <!-- TAking input as text -->
                 <!-- QUEARY IS A KEY ANYTHING ALSE WOULD BE A VALUE -->
                 <!-- password if needet but could be a TEXT as well -->
-                <input name="message" type="password"/>
+                <!-- <input name="message" type="password"/> -->
 
                 <!-- BUTTON TO SUBMIT A FORM -->
-                <button type="submit"> SEND</button>
+                <!-- <button type="submit"> SEND</button> -->
 
             <!-- KEY VALUE PAIR HAS BEEN TRANSFERED  -->
             <!-- POST method -->
             <!-- sends DATA to the action URL -->
+        </form>
+
+        <!-- don't need to use action or method on a form -->
+        <form>
+           <!-- <h4> More inputs </h4> -->
+            <!-- CHECKBOXES -->
+            <!-- MULIPLE values can be checked -->
+            <!-- <input type="checkbox" mname="checkbox1" value="1"/>1 -->
+
+            <!-- <input type="checkbox" mname="checkbox2" value="2"/>2 -->
+            <!-- CAN SELECT ONE OR MORE OPTRIONS -->
+
+        <fieldset>
+
+        <legend>Question 1:</legend>
+        a<type="checkbox" name="checkbox1" value="a"/>
+        b<type="checkbox" name="checkbox1" value="b"/>
+        c<type="checkbox" name="checkbox1" value="c"/>
+        d<type="checkbox" name="checkbox1" value="d"/>
+        e<type="checkbox" name="checkbox1" value="e"/>
+
+        </fieldset>filedset>
+
+        <!-- DATE INPUT FIELD -->
+    
+            <input type="date" name="dob"/>
+            <!-- color -->
+            <input type="color" name="colour"/>
+
         </form>
 
     </body>
