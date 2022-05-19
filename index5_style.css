@@ -1,0 +1,16 @@
+div {
+    width: 400px;
+    height: 100px;
+    background-color: rgb(205, 59, 59);
+    border: 2px solid black;
+    
+    /* overflow: auto; */
+    /* OVERFLOW SCROLL or VISIBLE OR AUTO EVENTUALLY */
+    overflow-x:hidden;
+    overflow-y:scroll;
+}
+#qa_logo {
+    height:50px;
+    width:50px;
+}
+
